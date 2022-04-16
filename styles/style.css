@@ -74,6 +74,26 @@
   font-size: 1rem;
 }
 
+.descricaoEntrevistas {
+  margin-right: 4rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.boxEntrevistas {
+  background-color: red;
+  width: 10rem;
+  height: 15rem;
+  text-align: center;
+  margin-right: 4rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+
+.tamanhoTexto {
+  font-size: 0.74rem;
+}
+
 .divImgAvaliador {
   display: flex;
   flex-direction: row;
