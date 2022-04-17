@@ -7,7 +7,16 @@
 }
 
 .main2 {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(136, 125, 125);
+}
+
+.footer {
+  background-color: #fc0;
+  height: 6rem;
+}
+
+.footerLogo {
+  text-align: end;
 }
 
 .colunabotao {
@@ -15,6 +24,10 @@
   justify-content: end;
   align-items: center;
   margin-right: 4rem;
+}
+
+.tamanhoNoticia {
+  height: 7rem;
 }
 
 .colunaDropdown {
@@ -57,13 +70,13 @@
 }
 
 .boxDestaque {
-  background-color: red;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.imgDestaque {
   width: 10rem;
   height: 15rem;
-  text-align: center;
-  margin-right: 4rem;
-  margin-left: 3rem;
-  margin-top: 2rem;
 }
 
 .avaliacaoDescricao {
@@ -90,8 +103,31 @@
   margin-top: 2rem;
 }
 
+.espacoIcon {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
 .tamanhoTexto {
   font-size: 0.74rem;
+}
+
+.divImgNovidades {
+  background-color: #fc0;
+  width: 14rem;
+  height: 10rem;
+  margin-right: 0.8rem;
+}
+
+.imgNovidades {
+  width: 14rem;
+  height: 8rem;
+  border: red 1px solid;
+  margin-right: 0.8rem;
+}
+
+.iconEditorial {
+  margin-right: 0.3rem;
 }
 
 .divImgAvaliador {
