@@ -12,7 +12,7 @@
 
 .footer {
   background-color: rgb(180, 187, 180);
-  height: 6rem;
+  height: auto;
 }
 
 .footerLogo {
@@ -49,10 +49,8 @@
 }
 
 .video {
-  background-color: red;
   display: flex;
-  justify-content: flex-start;
-  width: auto;
+  justify-content: center;
 }
 
 .descricaoFilme {
@@ -64,7 +62,6 @@
 }
 
 .caixa1 {
-  border: 1px solid red;
   display: flex;
   justify-content: center;
 }
@@ -88,18 +85,12 @@
 }
 
 .descricaoEntrevistas {
-  margin-right: 4rem;
-  margin-left: 2rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
   margin-top: 2rem;
 }
 
 .boxEntrevistas {
-  background-color: red;
-  width: 10rem;
-  height: 15rem;
-  text-align: center;
-  margin-right: 4rem;
-  margin-left: 3rem;
   margin-top: 2rem;
 }
 
@@ -176,4 +167,60 @@
 
 .estrelas1 input[type="radio1"]:hover ~ label i.fa:before {
   color: #ccc;
+}
+
+@media (max-width: 992px) {
+  .tamanhoSinopse {
+    flex: none;
+    max-width: 40rem;
+  }
+  .video {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .tela {
+    width: 15rem;
+    height: 13rem;
+  }
+  .tamanhoSinopse {
+    flex: none;
+    max-width: 20rem;
+  }
+
+  .estrelas input[type="radio"] {
+    display: none;
+  }
+  .estrelas label i.fa {
+    font-size: 1.5em;
+  }
+  .estrelas label i.fa:before {
+    content: "\f005";
+    color: #fc0;
+  }
+  .estrelas input[type="radio"]:checked ~ label i.fa:before {
+    color: #fc0;
+  }
+
+  .estrelas input[type="radio"]:hover ~ label i.fa:before {
+    color: #fc0;
+  }
+}
+
+@media (max-width: 767px) {
+  .divImgAvaliador {
+    flex: none;
+  }
+  .avaliacaoDescricao {
+    width: auto;
+  }
+  .divisaoSobre {
+    width: auto;
+  }
+  .divInfoNoticias {
+    width: auto;
+  }
 }
